@@ -1,0 +1,29 @@
+Астрономические данные
+
+Каталог основан на d3-celestial, © 2015 Olaf Frohn и участники проекта. Лицензия BSD-3-Clause, полный оригинальный текст приведён ниже и включён в приложение. Версия данных: 7e720a3de062059d4c5400a379146a601d9010e0.
+
+Звёзды: 5 044 объекта до видимой звёздной величины 6 из представления XHIP: An Extended Hipparcos Compilation — E. Anderson, C. Francis (2012), VizieR V/137D. Идентификаторы звёзд — HIP. Положения и относительные видимые яркости взяты из каталога, не сгенерированы.
+
+Границы: Catalogue of Constellation Boundary Data — A. C. Davenhall, S. K. Leggett (1989), VizieR VI/49, в представлении d3-celestial для эпохи J2000. Линии фигур и позиции подписей — из d3-celestial. Границы созвездий официальны; рисунки соединительных линий не являются единственным стандартом.
+
+Преобразования: долгота GeoJSON нормализована в прямое восхождение 0–360°, склонение сохранено. Две области Змеи объединены в одну запись с двумя контурами. Центры фигур рассчитаны по векторам звёзд соединительных линий. Русские названия и учебные памятки подготовлены для этого приложения; переводы названий из upstream не включены. Каталог не моделирует собственные движения, прецессию или земной горизонт: это учебная сфера J2000.
+
+В приложении нет материалов, иллюстраций или исходного кода Sky Academy. Публичное описание и скриншоты использованы только для анализа учебного процесса. Приложение является самостоятельной реализацией.
+
+Дизайн-компоненты, схема хранения Codable в UserDefaults и принципы сбалансированных тренировок адаптированы с разрешения пользователя из его проекта Solfege Trainer. Исходный проект не изменялся.
+
+Карты IAU, на которые ссылается исходный проект d3-celestial: IAU / Sky & Telescope; рисунки фигур — Alan MacRobert; карты — Roger Sinnott и Rick Fienberg. IAU публикует эти карты под Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/ . В приложении используются преобразованные численные линии, не изображения карт. Источник: https://www.iau.org/IAU/Astronomy-FAQs/Constellations.aspx . Изменения геометрии и формата перечислены выше.
+
+
+Copyright (c) 2015, Olaf Frohn
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
